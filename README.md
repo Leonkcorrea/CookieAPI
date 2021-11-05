@@ -15,7 +15,7 @@ Steps to run this project:
 
 [GET] 'https:localhost:3000/cookie' Lista todos os cookies <br />
 <br />
-[POST] 'https:localhost:3000/cookie' Cria o cookie<br />
+[POST] 'https:localhost:3000/cookie' Cria o cookie
  #### Dados Entrada:
   ```json  
 {
