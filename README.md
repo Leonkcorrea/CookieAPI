@@ -1,5 +1,9 @@
 # Project Build with TypeORM
 
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Node.js](https://nodejs.org/en/). [Docker](https://www.docker.com/)
 Steps to run this project:
 
 1. Run `npm i` command
@@ -11,6 +15,7 @@ Steps to run this project:
 
 [GET] 'https:localhost:3000/cookie' Lista todos os cookies <br />
 [POST] 'https:localhost:3000/cookie' Cria o cookie<br />
+ ### Dados Entrada:
   ```json  
 {
     "Nome":"Cookie Salgado",
@@ -23,6 +28,7 @@ Steps to run this project:
 [GET] 'https:localhost:3000/cookie/:id' Retorna o cookie por ID<br />
 [DELETE] 'https:localhost:3000/cookie/:id' Deleta o cookie por ID <br />
 [POST] 'https:localhost:3000/cookie/:id' Atualizar dados do cookie<br />
+ ### Dados Entrada:
  ```json  
  
 {
