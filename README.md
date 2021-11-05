@@ -14,8 +14,9 @@ Steps to run this project:
 ## Endpoints
 
 [GET] 'https:localhost:3000/cookie' Lista todos os cookies <br />
+<br />
 [POST] 'https:localhost:3000/cookie' Cria o cookie<br />
- ### Dados Entrada:
+ #### Dados Entrada:
   ```json  
 {
     "Nome":"Cookie Salgado",
@@ -26,9 +27,11 @@ Steps to run this project:
 }
 ```
 [GET] 'https:localhost:3000/cookie/:id' Retorna o cookie por ID<br />
+<br />
 [DELETE] 'https:localhost:3000/cookie/:id' Deleta o cookie por ID <br />
+<br />
 [POST] 'https:localhost:3000/cookie/:id' Atualizar dados do cookie<br />
- ### Dados Entrada:
+ #### Dados Entrada:
  ```json  
  
 {
